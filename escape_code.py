@@ -10,8 +10,8 @@ print ('%s, %s' % (s1, s2))  # Hello, worldと表示
 
 
 # Terminalの色とか表示位置とか
-https://qiita.com/PruneMazui/items/8a023347772620025ad6
-https://www.mm2d.net/main/prog/c/console-02.html
+# https://qiita.com/PruneMazui/items/8a023347772620025ad6
+# https://www.mm2d.net/main/prog/c/console-02.html
 
 x = 1
 print("\033[2A%d" % x) # 一行上にxと表示(2.xでも可)
