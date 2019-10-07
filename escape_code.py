@@ -8,6 +8,12 @@ s2 = 'world'
 
 print ('%s, %s' % (s1, s2))  # Hello, worldと表示
 
+# text操作
+# 自動で区切る
+text = "23490 0980 0928 09823"
+xx = [int(x) for x in text.split()]
+print(xx)
+
 
 # Terminalの色とか表示位置とか
 # シェルスクリプト　→　https://qiita.com/PruneMazui/items/8a023347772620025ad6
