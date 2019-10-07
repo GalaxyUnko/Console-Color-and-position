@@ -19,6 +19,12 @@ print(xx)
 # シェルスクリプト　→　https://qiita.com/PruneMazui/items/8a023347772620025ad6
 # https://www.mm2d.net/main/prog/c/console-02.html
 
+print("┌─┬─┐")
+print("│ │ │")
+print("├─┼─┤")
+print("│ │ │")
+print("└─┴─┘")
+
 x = 1
 print("\033[2A%d" % x) # 一行上にxと表示(2.xでも可)
 print("\033[%dG%d" % (x,x)) # 左からx文字目にxと表示(2.xでも可)
