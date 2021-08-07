@@ -18,12 +18,13 @@ print(xx)
 # Terminalの色とか表示位置とか
 # シェルスクリプト　→　https://qiita.com/PruneMazui/items/8a023347772620025ad6
 # https://www.mm2d.net/main/prog/c/console-02.html
-
-print("┌─┬─┐")
-print("│ │ │")
-print("├─┼─┤")
-print("│ │ │")
-print("└─┴─┘")
+# ╭─╮
+# │ │
+# ╰─╯
+# ┌─┬─┐
+# │ │ │
+# ├─┼─┤
+# └─┴─┘
 
 x = 1
 print("\033[2A%d" % x) # 一行上にxと表示(2.xでも可)
